@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Consolidated</string>
+    <string name="main_activity_explanatory_text">This application contains everything I\'ve learned, the list below sends the user to different activities that works like a showcase.</string>
+    <string name="activity_button_showcase_explanatory_text">This activity show different types of buttons and their uses.
+        \n
+        \nTo return, tap the return button or tap your phone \"back\" button.</string>
+    <string name="activity_text_view_showcase_explanatory_text">This activity shows a simple TextView wich can\'t be edited by the user and  a editText where the user can type.
+        \n
+        \nTo return, tap the return button or tap your phone \"back\" button.</string>
 </resources>

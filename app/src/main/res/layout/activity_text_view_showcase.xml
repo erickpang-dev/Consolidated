@@ -27,7 +27,7 @@
             android:id="@+id/explanatoryTextId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="This activity shows a simple TextView wich can't be edited by the user and  a editText where the user can type.\n\nTo return, tap the return button or tap your phone &quot;back&quot; button."
+            android:text="@string/activity_text_view_showcase_explanatory_text"
             android:textColor="@color/Black" />
 
         <Space
