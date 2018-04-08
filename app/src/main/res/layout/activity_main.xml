@@ -31,9 +31,14 @@
             android:text="@string/main_activity_explanatory_text"
             android:textColor="@color/Black" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
         <ListView
             android:id="@+id/activityListId"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#09000000" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

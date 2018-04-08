@@ -7,4 +7,11 @@
     <string name="activity_text_view_showcase_explanatory_text">This activity shows a simple TextView wich can\'t be edited by the user and  a editText where the user can type.
         \n
         \nTo return, tap the return button or tap your phone \"back\" button.</string>
+    <string name="return_button">Return</string>
+    <string name="insert_text_here">Insert text here.</string>
+    <string name="button">Button</string>
+    <string name="checkbox">Checkbox</string>
+    <string name="radio_button_1">Radio Button 1</string>
+    <string name="radio_button_2">Radio Button 2</string>
+    <string name="radio_button_3">Radio Button 3</string>
 </resources>
