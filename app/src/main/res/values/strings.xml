@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Consolidated</string>
     <string name="main_activity_explanatory_text">This application contains everything I\'ve learned, the list below sends the user to different activities that works like a showcase.</string>
-    <string name="activity_button_showcase_explanatory_text">This activity show different types of buttons and their uses.
+    <string name="activity_button_showcase_explanatory_text">This activity shows different types of buttons and their uses.
         \n
         \nTo return, tap the return button or tap your phone \"back\" button.</string>
     <string name="activity_text_view_showcase_explanatory_text">This activity shows a simple TextView wich can\'t be edited by the user and  a editText where the user can type.
@@ -14,4 +14,8 @@
     <string name="radio_button_1">Radio Button 1</string>
     <string name="radio_button_2">Radio Button 2</string>
     <string name="radio_button_3">Radio Button 3</string>
+    <string name="activity_information_transfer_showcase_explanatory_text">This activity allows the user to type a text and send to another activity by pressing "send".
+        \n
+        \nTo return, tap the return button or tap your phone \"back\" button.</string>
+    <string name="send_button">Send</string>
 </resources>
