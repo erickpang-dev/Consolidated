@@ -56,10 +56,10 @@ public class MainActivity extends Activity {
                     break;
                     case 2: Intent activity2 = new Intent(MainActivity.this, ActivityInformationTransferShowcase.class);
                             startActivity(activity2);
-//                    break;
-//                    case 3: Intent activity3 = new Intent(MainActivity.this, AlertDialogShowcase.class);
-//                            startActivity(activity3);
-//                    break;
+                    break;
+                    case 3: Intent activity3 = new Intent(MainActivity.this, AlertDialogShowcase.class);
+                            startActivity(activity3);
+                    break;
 //                    case 4: Intent activity4 = new Intent(MainActivity.this, SeekBarShowcase.class);
 //                            startActivity(activity4);
 //                    break;
@@ -71,7 +71,7 @@ public class MainActivity extends Activity {
 //                    break;
 //                    case 7: Intent activity7 = new Intent(MainActivity.this, InternalStorageShowcase.class);
 //                            startActivity(activity7);
-//
+//                    break;
 
                     default:
                         Toast.makeText(MainActivity.this, "Activity not created or linked", Toast.LENGTH_SHORT).show();
