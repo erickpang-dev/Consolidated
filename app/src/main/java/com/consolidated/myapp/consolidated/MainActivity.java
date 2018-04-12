@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -34,9 +35,11 @@ public class MainActivity extends Activity {
 
         ArrayAdapter<String> namesAdapter = new ArrayAdapter<String>(
                 getApplicationContext(),
-                android.R.layout.simple_list_item_1,
-                android.R.id.text1,
+                android.R.layout.simple_list_item_2,
+                android.R.id.text2,
                 activitiesNames
+
+
         );
 
         activityList.setAdapter(namesAdapter);
