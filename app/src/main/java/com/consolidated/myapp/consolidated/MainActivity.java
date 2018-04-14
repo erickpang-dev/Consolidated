@@ -60,9 +60,9 @@ public class MainActivity extends Activity {
                     case 3: Intent activity3 = new Intent(MainActivity.this, AlertDialogShowcase.class);
                             startActivity(activity3);
                     break;
-//                    case 4: Intent activity4 = new Intent(MainActivity.this, SeekBarShowcase.class);
-//                            startActivity(activity4);
-//                    break;
+                    case 4: Intent activity4 = new Intent(MainActivity.this, SeekBarShowcase.class);
+                            startActivity(activity4);
+                    break;
 //                    case 5: Intent activity5 = new Intent(MainActivity.this, MediaPlayerShowcase.class);
 //                            startActivity(activity5);
 //                    break;

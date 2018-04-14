@@ -20,7 +20,8 @@
         <activity android:name=".ButtonShowcase" />
         <activity android:name=".ActivityInformationTransferShowcase" />
         <activity android:name=".HiddenActivity" />
-        <activity android:name=".AlertDialogShowcase"></activity>
+        <activity android:name=".AlertDialogShowcase" />
+        <activity android:name=".SeekBarShowcase"></activity>
     </application>
 
 </manifest>

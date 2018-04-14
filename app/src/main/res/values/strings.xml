@@ -4,7 +4,7 @@
     <string name="activity_button_showcase_explanatory_text">This activity shows different types of buttons and their uses.
         \n
         \nTo return, tap the return button or tap your phone \"back\" button.</string>
-    <string name="activity_text_view_showcase_explanatory_text">This activity shows a simple TextView wich can\'t be edited by the user and  a editText where the user can type.
+    <string name="activity_text_view_showcase_explanatory_text">This activity shows a simple TextView which can\'t be edited by the user and  a editText where the user can type.
         \n
         \nTo return, tap the return button or tap your phone \"back\" button.</string>
     <string name="return_button">Return</string>
@@ -18,8 +18,11 @@
         \n
         \nTo return, tap the return button or tap your phone \"back\" button.</string>
     <string name="send_button">Send</string>
-    <string name="activity_alert_dialog_showcase_explanatory_text">This activity shows an example of Alert DIalog when the user press the button \"Alert Dialog\".
+    <string name="activity_alert_dialog_showcase_explanatory_text">This activity shows an example of Alert Dialog when the user press the button \"Alert Dialog\".
         \n
         \nTo return, tap the return button or tap your phone \"back\" button.</string>
     <string name="alert_dialog_button">Alert dialog</string>
+    <string name="activity_seek_bar_showcase_explanatory_text">This activity shows an example of SeekBar which change the text of the TextView below to inform  it's position.
+        \n
+        \nTo return, tap the return button or tap your phone \"back\" button.</string>
 </resources>
