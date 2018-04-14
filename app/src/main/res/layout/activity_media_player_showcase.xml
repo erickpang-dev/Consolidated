@@ -46,7 +46,6 @@
                 android:id="@+id/playPauseButtonId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ToggleButton"
                 android:textOff="@string/play_toggle_button"
                 android:textOn="@string/pause_toggle_button"
                 tools:layout_editor_absoluteX="64dp"
@@ -61,5 +60,19 @@
                 tools:layout_editor_absoluteY="243dp" />
         </LinearLayout>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/returnButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginStart="161dp"
+        android:text="@string/return_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
