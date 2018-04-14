@@ -21,7 +21,8 @@
         <activity android:name=".ActivityInformationTransferShowcase" />
         <activity android:name=".HiddenActivity" />
         <activity android:name=".AlertDialogShowcase" />
-        <activity android:name=".SeekBarShowcase"></activity>
+        <activity android:name=".SeekBarShowcase" />
+        <activity android:name=".MediaPlayerShowcase"></activity>
     </application>
 
 </manifest>

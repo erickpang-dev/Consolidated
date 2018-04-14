@@ -25,4 +25,10 @@
     <string name="activity_seek_bar_showcase_explanatory_text">This activity shows an example of SeekBar which change the text of the TextView below to inform  it's position.
         \n
         \nTo return, tap the return button or tap your phone \"back\" button.</string>
+    <string name="activity_media_player_showcase_explanatory_text">This activity shows a simple media player controlled by the buttons below.
+        \n
+        \nTo return, tap the return button or tap your phone \"back\" button.</string>
+    <string name="pause_toggle_button">Pause</string>
+    <string name="play_toggle_button">Play</string>
+    <string name="stop_button">Stop</string>
 </resources>

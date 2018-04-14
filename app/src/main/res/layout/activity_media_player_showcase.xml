@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SeekBarShowcase">
+    tools:context=".MediaPlayerShowcase">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -26,41 +26,40 @@
             android:id="@+id/explanatoryTextId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/activity_seek_bar_showcase_explanatory_text"
+            android:text="@string/activity_media_player_showcase_explanatory_text"
+            android:textAllCaps="false"
             android:textColor="@color/Black" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="50dp" />
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="167dp" />
 
-        <SeekBar
-            android:id="@+id/seekBarId"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="50dp" />
-
-        <TextView
-            android:id="@+id/resultsTextId"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Use the SeekBar above." />
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/playPauseButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ToggleButton"
+                android:textOff="@string/play_toggle_button"
+                android:textOn="@string/pause_toggle_button"
+                tools:layout_editor_absoluteX="64dp"
+                tools:layout_editor_absoluteY="244dp" />
+
+            <Button
+                android:id="@+id/stopButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stop_button"
+                tools:layout_editor_absoluteX="228dp"
+                tools:layout_editor_absoluteY="243dp" />
+        </LinearLayout>
     </LinearLayout>
 
-    <Button
-        android:id="@+id/returnButtonId"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="162dp"
-        android:layout_marginLeft="162dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginRight="162dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/return_button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
